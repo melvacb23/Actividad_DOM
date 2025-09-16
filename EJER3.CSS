@@ -1,0 +1,52 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+h2 {
+  color: #2c3e50;
+  text-align: center;
+}
+
+ul {
+  list-style-type: square;
+  background: #ecf0f1;
+  padding: 15px;
+  border-radius: 8px;
+  max-width: 300px;
+  margin: 0 auto 20px auto;
+}
+
+li {
+  margin: 5px 0;
+  padding: 5px;
+  background: #d6eaf8;
+  border-radius: 4px;
+}
+
+.botones {
+  text-align: center;
+}
+
+button {
+  margin: 5px;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 5px;
+}
+
+#btnAgregar {
+  background-color: #27ae60;
+  color: white;
+}
+
+#btnEliminar {
+  background-color: #c0392b;
+  color: white;
+}
+
+button:hover {
+  opacity: 0.8;
+}
